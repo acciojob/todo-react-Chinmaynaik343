@@ -1,13 +1,15 @@
 
 import React from "react";
-import './../styles/App.css';
+import Todo from "./Todo";
+import "./../styles/App.css";
 
-const App = () => {
+function App() {
   return (
-    <div>
-        {/* Do not remove the main div */}
+    <div className="main-container">
+      <h1>To-Do List</h1>
+      <Todo />
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
