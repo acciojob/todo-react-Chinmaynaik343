@@ -1,1 +1,24 @@
 
+.main-container {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 20px;
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+input {
+  padding: 10px;
+  margin-right: 10px;
+  margin-bottom: 15px;
+}
+
+button {
+  padding: 10px 15px;
+  cursor: pointer;
+}
+
+li {
+  margin: 12px 0;
+}
+
